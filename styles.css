@@ -144,7 +144,6 @@ a:hover {
     text-align: center;
     padding: 52px;
     padding-top: 0;
-
 }
 
 .info-text {
@@ -155,6 +154,7 @@ a:hover {
 
 .info-content {
     display: flex;
+    justify-content: center;
     gap: 32px;
 }
 
