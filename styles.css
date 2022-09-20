@@ -7,25 +7,66 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    margin: 0;
+}
+
+button:hover{
+    background-color: #2759aa;
+    color: rgb(204, 204, 204);
+    border-color: rgb(204, 204, 204);
+}
+
+button {
+    width: 120px;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 8px;
+
+    color: white;
+    background-color: #3882F6;
+
+    font-size: 16px;
+    font-weight: bolder;
+
+    flex: none;
+}
+
+.call-action > button {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+a {
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a:hover {
+    color: white;
+    font-size: 17px;
 }
 
 .menu-container,
 .header-container,
 .footer-container {
-    background-color: #1F2937;
-    color: white;
-}
-
-.menu-container {
     display: flex;
     justify-content: center;
+
+    background-color: #1F2937;
+    color: white;  
 }
 
-.content-container{ 
+.header-container {
+    height: 400px;
+}
+
+.main-content-container{ 
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
 }
 
 .footer-container {
@@ -36,11 +77,15 @@ body {
     width: 900px;   
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 12px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .menu-links {
@@ -51,29 +96,46 @@ body {
     padding: 0;
 
     margin-left: auto;
-    gap: 8px
+    gap: 16px
 }
 
 .header-content {
-    margin: 0;
     display: flex;
-    justify-content: center;
+    margin: auto;
 
-    height: 400px;
-    width: 750px;
+    width: 900px;
+    height: 250px;
+}
 
-    padding: 12px;
+.img-header {
+    width: 400px;
+    height: 250px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    height: 250px;
+    margin-right: auto;
+
+
 }
 
 .main-text {
     font-size: 48px;
     font-weight: bolder;
     color:  #F9FAF8;
+    margin: 0;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding-top: 12px;
+    flex: 1;
 }
 
 .info {
