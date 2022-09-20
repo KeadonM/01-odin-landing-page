@@ -139,8 +139,11 @@ a:hover {
 }
 
 .info {
+    height: 500px;
     text-align: center;
     padding: 52px;
+    padding-top: 0;
+
 }
 
 .info-text {
@@ -151,34 +154,13 @@ a:hover {
 
 .info-content {
     display: flex;
-
     gap: 32px;
 }
 
-.quote {
-    background-color: #E5E7EB;
-    height: 250px;
-
-    padding: 24px;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
-    color: #3d3d3d;
-}
-
-.call-action {
-    align-self: center;
-    background-color: #3882F6;
-    color: white;
-
-    width: 750px;
-    height: 150px;
-    
-    margin: 52px;
-
-    border-radius: 12px;
+.img-info:hover {
+    border-color: #3270d4;
+    height: 210px;
+    width: 210px;
 }
 
 .img-info {
@@ -186,4 +168,49 @@ a:hover {
     border-radius: 18px;
     height: 200px;
     width: 200px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+
+    background-color: #E5E7EB;
+    padding: 24px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.quote-text {   
+    font-size: 36px;
+    font-style: italic;
+    color: #686868;
+    margin: 0;
+}
+
+.quote-reference {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #3d3d3d;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.call-action {
+    align-self: center;
+    background-color: #3882F6;
+    color: white;
+
+    width: 900px;
+    height: 150px;
+    
+    margin: 52px;
+
+    border-radius: 12px;
 }
