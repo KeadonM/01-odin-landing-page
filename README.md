@@ -1,4 +1,4 @@
-# landing-page-odin-01
+# 01-odin-landing-page
 
 This is my second project from TOP.
 
